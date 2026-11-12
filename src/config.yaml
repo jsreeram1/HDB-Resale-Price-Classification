@@ -1,0 +1,49 @@
+file_path: './data/resale_transactions_categorised.csv'
+target_column: price_category
+val_test_size: 0.2
+val_size: 0.5
+logreg_param_grid:
+    Classifier_C: [0.01, 0.1, 1, 10, 100]
+    Clssifier_fit_intercept: [True, False]
+    max_iter : [1000]
+    random_state : [42]
+    Cross Validation: GridSearchCV 
+    cv: 5
+    scoring: ['accuracy'] 
+    n_jobs: -1 
+knn_param_grid:
+    classifier_n_neighbors: [3, 5, 7, 9, 11, 13, 15]
+    classifier_weights: ['uniform', 'distance']
+    Cross Validation: GridSearchCV 
+    cv: 5 
+    scoring: 'accuracy'
+    n_jobs: -1 
+decision_tree:
+    classifier_max_depth: [None, 5, 10, 15, 20]
+    classifier_min_samples_split: [2, 5, 10]
+    Cross Validation: GridSearchCV 
+    cv: 5 
+    scoring: ['accuracy'] 
+    n_jobs: -1 
+numerical_features:
+  - floor_area_sqm
+  - remaining_lease_months
+  - lease_commence_date
+  - year
+nominal_features:
+  - month
+  - town_name
+  - flatm_name
+ordinal_features:
+  - flat_type
+passthrough_features:
+  - storey_midpoint
+flat_type_categories:
+  - "1 ROOM"
+  - "2 ROOM"
+  - "3 ROOM"
+  - "4 ROOM"
+  - "5 ROOM"
+  - "MULTI-GENERATION"
+  - "EXECUTIVE"
+ 

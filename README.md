@@ -20,8 +20,8 @@ Follow the following steps to setup the project locally
 1. **Clone the repository**:
 
   ```bash
-   git clone git clone https://jonyling:XXX@github.com/AIAP-Foundation/jonyling-ClassificationEndToEnd.git
-   cd C:\Users\User\ML_Coding_Projects\HDB_Binary
+   git clone https://https://github.com/jsreeram1/HDB-Resale-Price-Classification.git
+   cd C:\Users\Ram\Desktop\AIAP Foundation\Classification
 
 2. **Install dependencies**:
 
@@ -31,6 +31,7 @@ Follow the following steps to setup the project locally
 3. **Set up configuration**:
 
     Ensure the config.yaml file is in the root directory with the correct path to your dataset (e.g. resale_transactions_categorised.csv).
+
     Update the target_column, val_size, and other parameters as needed.
 
 4. **Run the project**:
@@ -38,7 +39,9 @@ Follow the following steps to setup the project locally
   ```bash
     python main.py
 
-OR You can follow the steps mentioned below in detail    
+OR
+
+You can follow the steps mentioned below in detail    
 
 Open Anaconda Prompt and create a conda environment - hdbenv for this project, then activate it. Install the following packages one by one, which could be found in requirements.txt
 

@@ -160,6 +160,7 @@ The data is split into 80% training (67,572), 10% validation (8,447) and 10% tes
 ### Evaluation Results on Validation set
 
 | Model | Accuracy | Precision | Recall | F1 Score | ROC AUC |
+---
 | Logistic Regression | 0.89178 | 0.88979 | 0.89276 | 0.89127 | 0.96000 |
 | K-Nearest Neighbours  | 0.87627 | 0.88268 | 0.86606 | 0.87429 | 0.94108 |
 | Decision Trees  | 0.90126 | 0.89948 | 0.90205 | 0.90076 | 0.90279 |
@@ -168,7 +169,8 @@ The data is split into 80% training (67,572), 10% validation (8,447) and 10% tes
 
 ### Model Comparison based on GridSearch CV
 
-| Model | Accuracy | Precision | Recall | F1 Score | ROC AUC | 
+| Model | Accuracy | Precision | Recall | F1 Score | ROC AUC |
+---
 | Logistic Regression | 0.89261 | 0.89015 | 0.89418 | 0.89217 | 0.89262 |
 | K-Nearest Neighbours  | 0.87888 | 0.88610 | 0.86773 | 0.87682 | 0.87881 |
 | Decision Trees  | 0.89238 | 0.90832 | 0.87131 | 0.88943 | 0.89224 |
@@ -177,6 +179,7 @@ The data is split into 80% training (67,572), 10% validation (8,447) and 10% tes
 ### Model Comparison based on RandomisedSearch CV
 
 | Model | Accuracy | Precision | Recall | F1 Score | ROC AUC |
+---
 | Logistic Regression | 0.89261 | 0.89015 | 0.89418 | 0.89217 | 0.89262 |
 | K-Nearest Neighbours  | 0.87888 | 0.88610 | 0.86773 | 0.87682 | 0.87881 |
 | Decision Trees  | 0.87781 | 0.91027 | 0.83651 | 0.87183 | 0.87755 |

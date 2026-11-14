@@ -190,9 +190,9 @@ While comparing all the model, the Decision Tree Classifier model's Precision va
 
 Best Decision Tree Classifier Model, Final Test Metrics:
 
-| Metrics | Value |
+| Metrics | Value | x |
 |---|---|
-| Final Test Accuracy | 0.8832721676334794 |
+| Final Test Accuracy: | 0.8832721676334794 |
 | Final Test Precision: | 0.9203771608171818 |
 | Final Test Recall: | 0.8374642516682554 |
 | Final Test F1: | 0.876965310706264 |

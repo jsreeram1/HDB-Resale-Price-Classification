@@ -1,7 +1,7 @@
 # HDB Flat Resale Price Category Prediction
 
 ## Project Description
-The objective of this project is to predict the HDB Flat price which categorised as Above Median or Below Median. This prediction would help to identify a flat resale price is Above Median or Below Median resale price and based on this result the buyer or seller of the resale flat can decide whther to buy/sell the flat or not. To achieve this three Machine Learning Models on classification will be developed - Logistic Regression, K-Nearest Neighbour and Decision Tree,  from which one best model will be selected to achieve the object.
+The objective of this project is to predict the HDB Flat price which categorised as Above Median or Below Median. This prediction would help to identify a flat resale price is Above Median or Below Median resale price and based on this result the buyer or seller of the resale flat can decide whether to buy/sell the flat or not. To achieve this three Machine Learning Models on classification will be developed - Logistic Regression, K-Nearest Neighbour and Decision Tree,  from which one best model will be selected to achieve the object.
 
 ---
 
@@ -16,33 +16,27 @@ The objective of this project is to predict the HDB Flat price which categorised
 ### Installations:
 
 Follow the following steps to setup the project locally
+1. **Clone the repository**
 
-1. **Clone the repository**:
-
-  ```bash
+```bash
    git clone https://https://github.com/jsreeram1/HDB-Resale-Price-Classification.git
    cd C:\Users\Ram\Desktop\AIAP Foundation\Classification
+```
+2. **Install dependencies**
 
-2. **Install dependencies**:
-
-  ```bash
-    pip install -r requirements.txt  
-
-2. **Install dependencies**:
-
-  ```bash
-    pip install -r requirements.txt
-
+```bash
+  pip install -r requirements.txt
+```
 3. **Set up configuration**:
 
     Ensure the config.yaml file is in the root directory with the correct path to your dataset (e.g. resale_transactions_categorised.csv).
-
     Update the target_column, val_size, and other parameters as needed.
 
 4. **Run the project**:
 
-  ```bash
-    python main.py
+```bash
+  python main.py
+```
 
 OR
 

@@ -169,6 +169,16 @@ The data is split into 80% training (67,572), 10% validation (8,447) and 10% tes
 ### Model Comparison based on GridSearch CV
 
 | Model | Accuracy | Precision | Recall | F1 Score | ROC AUC |
+|---|---|---|---|---|
+ 
+| Final Test Accuracy | 0.8832721676334794 |
+| Final Test Precision: | 0.9203771608171818 |
+| Final Test Recall: | 0.8374642516682554 |
+| Final Test F1: | 0.876965310706264 |
+| Final Test ROC AUC: | 0.8829758331971012 |
+
+
+| Model | Accuracy | Precision | Recall | F1 Score | ROC AUC |
 |---|---|
 | Logistic Regression | 0.89261 | 0.89015 | 0.89418 | 0.89217 | 0.89262 |
 | K-Nearest Neighbours  | 0.87888 | 0.88610 | 0.86773 | 0.87682 | 0.87881 |

@@ -26,6 +26,11 @@ Follow the following steps to setup the project locally
 2. **Install dependencies**:
 
   ```bash
+    pip install -r requirements.txt  
+
+2. **Install dependencies**:
+
+  ```bash
     pip install -r requirements.txt
 
 3. **Set up configuration**:

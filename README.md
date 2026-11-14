@@ -160,7 +160,7 @@ The data is split into 80% training (67,572), 10% validation (8,447) and 10% tes
 ### Evaluation Results on Validation set
 
 | Model | Accuracy | Precision | Recall | F1 Score | ROC AUC |
-|---||---||---||---||---|
+---|---|---|---|---|
 | Logistic Regression | 0.89178 | 0.88979 | 0.89276 | 0.89127 | 0.96000 |
 | K-Nearest Neighbours  | 0.87627 | 0.88268 | 0.86606 | 0.87429 | 0.94108 |
 | Decision Trees  | 0.90126 | 0.89948 | 0.90205 | 0.90076 | 0.90279 |

@@ -56,7 +56,7 @@ Open VS Code, select Terminal from View menu, in the below horizontal panel use 
 
 ## Overview of Key Findings of EDA:  
 
-    Import the Pandas. With the help of pandas load CSV data from durectiry where it is downloaded. Then start to explore the data. The followings are the findings of EDA.
+Import the Pandas. With the help of pandas load CSV data from durectiry where it is downloaded. Then start to explore the data. The followings are the findings of EDA.
  
   1. There are 88688 rows and 14 Columns (including id column)
 
